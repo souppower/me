@@ -1,3 +1,4 @@
 languageCode = "en-us"
 title = "souplab"
+theme = "dimension"
 baseURL = "http://example.org/"

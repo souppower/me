@@ -4,5 +4,5 @@
 
 ```
 # starting the local development server
-$ hugo server --theme=demension
+$ hugo server
 ```
