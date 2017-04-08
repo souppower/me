@@ -1,0 +1,22 @@
+{
+  "name": "me",
+  "version": "0.1.0",
+  "description": "soup's personal website",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souppower/me.git"
+  },
+  "author": "souppower",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souppower/me/issues"
+  },
+  "homepage": "https://github.com/souppower/me#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.2"
+  }
+}
