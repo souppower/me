@@ -19,6 +19,14 @@ module.exports = {
 				presets: ['es2015'],
 				plugins: ['transform-runtime']
 			}
+		},
+		{
+			test: /\.scss$/,
+			use: [
+				{
+					loader: "sass-loader"
+				}
+			]
 		}
 		]
 	}
