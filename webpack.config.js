@@ -1,14 +1,6 @@
 module.exports = {
 	entry: "./js/main.js",
 	output: {filename: "./dist/bundle.js"},
-
-	// Enables ES6 modules to be loaded w/ "root/project paths"
-	resolve: {
-		modules: [
-			__dirname + '/js'
-		]
-	},
-
 	module: {
 		rules: [
 		{
