@@ -4,6 +4,11 @@
   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+import $ from 'jquery';
+import jQuery from 'jquery';
+
+import * as skel from './skel.min.js';
+
 (function($) {
 
   skel.breakpoints({
@@ -36,7 +41,7 @@
       });
 
     // Fix: Placeholder polyfill.
-      $('form').placeholder();
+      // $('form').placeholder();
 
     // Fix: Flexbox min-height bug on IE.
       if (skel.vars.IEVersion < 12) {
