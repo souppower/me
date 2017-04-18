@@ -4,6 +4,8 @@
   "description": "soup's personal website",
   "private": true,
   "scripts": {
+    "build": "webpack",
+    "clean": "rimraf dist/",
     "start": "npm run build-watch & npm run server",
     "build-watch": "webpack -d --watch",
     "server": "browser-sync start --server --files='dist/bundle.js,index.html' --no-notify"
@@ -25,10 +27,15 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-runtime": "^6.23.0",
     "browser-sync": "^2.18.8",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
     "node-libs-browser": "^2.0.0",
     "node-sass": "^4.5.2",
+    "rimraf": "^2.6.1",
     "sass-loader": "^6.0.3",
-    "webpack": "^2.3.3"
+    "sass-resources-loader": "^1.2.1",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1"
   },
   "dependencies": {
     "jquery": "^3.2.1"
