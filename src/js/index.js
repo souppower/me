@@ -9,6 +9,8 @@ import jQuery from 'jquery';
 
 import * as skel from './skel.min.js';
 
+import '../sass/main.scss';
+
 (function($) {
 
   skel.breakpoints({
